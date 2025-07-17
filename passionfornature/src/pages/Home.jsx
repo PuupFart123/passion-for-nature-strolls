@@ -1,52 +1,52 @@
 import React from 'react';
+import MyAnimatedGradient from '../components/MyAnimatedGradient';
 import Hero from '../components/Hero';
 
 const Home = () => {
   return (
     <div className="home">
       <Hero />
-      
-      {/* Features Section */}
-      <section className="section features-section">
-        <div className="container">
+      {/* Features Section with animated gradient background */}
+      <section className="section features-section" style={{ position: 'relative', zIndex: 1, overflow: 'hidden', padding: '5rem 0 5rem 0', margin: 0 }}>
+        <div style={{ position: 'absolute', inset: 0, zIndex: 0, width: '100%', height: '100%', overflow: 'hidden' }}>
+          <MyAnimatedGradient />
+        </div>
+        <div className="container" style={{ position: 'relative', zIndex: 1, color: 'white', padding: '2rem 0' }}>
           <div className="text-center mb-4">
-            <h2>Why Join Our Nature Strolls?</h2>
-            <p className="text-light">Experience the natural beauty of Sammamish with expert guidance</p>
+            <h2 style={{ color: 'white', textShadow: '0 2px 16px rgba(0,0,0,0.25)' }}>Why Join Our Nature Strolls?</h2>
+            <p className="text-light" style={{ color: 'white', textShadow: '0 2px 8px rgba(0,0,0,0.18)' }}>Experience the natural beauty of Sammamish with expert guidance</p>
           </div>
-          
           <div className="grid grid-3">
-            <div className="card feature-card">
+            <div className="card feature-card" style={{ background: 'rgba(0,0,0,0.65)', color: 'white', border: 'none', borderRadius: '32px', boxShadow: '0 8px 32px rgba(0,0,0,0.18)', padding: '2.5rem 2rem' }}>
               <div className="feature-icon">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                  <circle cx="24" cy="24" r="20" fill="rgba(45, 90, 39, 0.1)" stroke="var(--primary-green)" strokeWidth="2"/>
+                  <circle cx="24" cy="24" r="20" fill="rgba(255,255,255,0.08)" stroke="var(--primary-green)" strokeWidth="2"/>
                   <path d="M12 24 L20 32 L36 16" stroke="var(--primary-green)" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3>Expert Guides</h3>
-              <p>Learn from experienced naturalists and local experts with decades of knowledge about the area's ecosystems.</p>
+              <h3 style={{ color: 'white' }}>Expert Guides</h3>
+              <p style={{ color: 'white' }}>Learn from experienced naturalists and local experts with decades of knowledge about the area's ecosystems.</p>
             </div>
-            
-            <div className="card feature-card">
+            <div className="card feature-card" style={{ background: 'rgba(0,0,0,0.65)', color: 'white', border: 'none', borderRadius: '32px', boxShadow: '0 8px 32px rgba(0,0,0,0.18)', padding: '2.5rem 2rem' }}>
               <div className="feature-icon">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                  <circle cx="24" cy="24" r="20" fill="rgba(45, 90, 39, 0.1)" stroke="var(--primary-green)" strokeWidth="2"/>
+                  <circle cx="24" cy="24" r="20" fill="rgba(255,255,255,0.08)" stroke="var(--primary-green)" strokeWidth="2"/>
                   <path d="M24 8 L28 20 L40 20 L30 28 L34 40 L24 32 L14 40 L18 28 L8 20 L20 20 Z" fill="var(--primary-green)"/>
                 </svg>
               </div>
-              <h3>Local Beauty</h3>
-              <p>Discover hidden gems and natural wonders right in your own community of Sammamish, Washington.</p>
+              <h3 style={{ color: 'white' }}>Local Beauty</h3>
+              <p style={{ color: 'white' }}>Discover hidden gems and natural wonders right in your own community of Sammamish, Washington.</p>
             </div>
-            
-            <div className="card feature-card">
+            <div className="card feature-card" style={{ background: 'rgba(0,0,0,0.65)', color: 'white', border: 'none', borderRadius: '32px', boxShadow: '0 8px 32px rgba(0,0,0,0.18)', padding: '2.5rem 2rem' }}>
               <div className="feature-icon">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                  <circle cx="24" cy="24" r="20" fill="rgba(45, 90, 39, 0.1)" stroke="var(--primary-green)" strokeWidth="2"/>
+                  <circle cx="24" cy="24" r="20" fill="rgba(255,255,255,0.08)" stroke="var(--primary-green)" strokeWidth="2"/>
                   <path d="M16 16 L32 16 L32 32 L16 32 Z" fill="none" stroke="var(--primary-green)" strokeWidth="2"/>
                   <circle cx="24" cy="24" r="4" fill="var(--primary-green)"/>
                 </svg>
               </div>
-              <h3>Small Groups</h3>
-              <p>Enjoy intimate experiences with small group sizes, perfect for learning and connecting with nature.</p>
+              <h3 style={{ color: 'white' }}>Small Groups</h3>
+              <p style={{ color: 'white' }}>Enjoy intimate experiences with small group sizes, perfect for learning and connecting with nature.</p>
             </div>
           </div>
         </div>
