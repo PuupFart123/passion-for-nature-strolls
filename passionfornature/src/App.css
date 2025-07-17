@@ -31,7 +31,7 @@ Adobe Fonts kit uet4qlt provides:
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  }
 
 body {
   font-family: var(--body-font);
@@ -310,7 +310,7 @@ p, li, input, textarea, select, button {
   background: rgba(45, 90, 39, 0.05);
   border-radius: var(--border-radius);
   border-left: 4px solid var(--primary-green);
-}
+  }
 
 /* Guide styles */
 .guide-card {
