@@ -25,7 +25,7 @@ const Footer = () => {
                 </svg>
               </div>
               <div>
-                <h3>Passion for Nature Strolls</h3>
+                <h3>Passion for Nature</h3>
                 <p>A Sammamish Friends Program</p>
               </div>
             </div>

@@ -42,6 +42,10 @@
   display: flex;
   align-items: center;
   color: var(--primary-green);
+  background: #356338;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
 .brand-text {
