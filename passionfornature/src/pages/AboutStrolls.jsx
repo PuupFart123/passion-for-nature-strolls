@@ -21,8 +21,8 @@ const AboutStrolls = () => {
               <h2>Upcoming Event</h2>
               <div className="card event-card">
                 <div className="event-header">
-                  <h3>Yellow Lake Park Nature Walk</h3>
-                  <div className="event-date">Saturday, July 12th, 2024</div>
+                  <h3>Audubon Bird Loop at Marymoor Park</h3>
+                  <div className="event-date">Saturday, August 23, 2025</div>
                 </div>
                 
                 <div className="event-details-list">
@@ -36,23 +36,28 @@ const AboutStrolls = () => {
                   <div className="detail-item">
                     <div className="detail-icon">📍</div>
                     <div>
-                      <strong>Location:</strong> Yellow Lake Park<br/>
-                      <span className="address">4210 244th PL SE, Issaquah, WA, 98029</span>
+                      <strong>Location:</strong> The Audubon Bird Loop at Marymoor Park<br/>
+                      <span className="address">6046 West Lake Sammamish Pkwy NE, Redmond, WA 98052</span>
                     </div>
                   </div>
                   
-                  <div className="detail-item">
+                  {/* You can add or update walk details and group size here if you have info */}
+                  <div className="detail-item" style={{ display: 'flex', alignItems: 'center' }}>
                     <div className="detail-icon">🚶</div>
                     <div>
-                      <strong>Walk Details:</strong> 1.6 miles (~1 hour)<br/>
-                      <span>Mostly flat, natural surface with some paved areas</span>
+                      <strong>Walk Details:</strong> 1.3 miles (~2 hours)
                     </div>
                   </div>
-                  
-                  <div className="detail-item">
-                    <div className="detail-icon">👥</div>
+                  <div className="detail-item" style={{ display: 'flex', alignItems: 'center' }}>
+                    <div className="detail-icon">🗺️</div>
                     <div>
-                      <strong>Group Size:</strong> Small groups for individuals 12 years and older
+                      <strong>Google Maps:</strong> Marymoor Parking Lot G
+                    </div>
+                  </div>
+                  <div className="detail-item">
+                    <div className="detail-icon">💵</div>
+                    <div>
+                      <strong>Note:</strong> Please bring a bill or a credit card to pay the parking fee (US$ 1.00)
                     </div>
                   </div>
                 </div>

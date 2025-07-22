@@ -60,24 +60,24 @@ const Home = () => {
               <h2>Next Nature Stroll</h2>
               <div className="event-details">
                 <div className="event-detail">
-                  <strong>Date:</strong> Saturday, July 12th, 2024
+                  <strong>Where:</strong> The Audubon Bird Loop at Marymoor Park
                 </div>
                 <div className="event-detail">
-                  <strong>Time:</strong> 9:00 AM
+                  <strong>Address:</strong> 6046 West Lake Sammamish Pkwy NE, Redmond, WA 98052
                 </div>
                 <div className="event-detail">
-                  <strong>Location:</strong> Yellow Lake Park
+                  <strong>Google Maps:</strong> Marymoor Parking Lot G
                 </div>
                 <div className="event-detail">
-                  <strong>Address:</strong> 4210 244th PL SE, Issaquah, WA, 98029
+                  <strong>When:</strong> Saturday August 23, 2025. 9:00 AM
                 </div>
                 <div className="event-detail">
-                  <strong>Duration:</strong> ~1 hour (1.6 miles)
+                  <strong>Note:</strong> Please bring a bill or a credit card to pay the parking fee (US$ 1.00)
                 </div>
               </div>
               <div className="hero-cta event-cta">
                 <button className="btn btn-primary">Join This Stroll</button>
-                <button className="btn btn-secondary">View Details</button>
+                <a href="/Marymoor%2023aug25.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block', textDecoration: 'none' }}>View Details</a>
               </div>
             </div>
             
