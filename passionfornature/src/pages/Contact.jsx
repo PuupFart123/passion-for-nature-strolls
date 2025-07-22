@@ -217,9 +217,8 @@ const Contact = () => {
             <div className="faq-item">
               <h3>Do I need my own binoculars?</h3>
               <p>
-                While binoculars are helpful, they're not required. We often have extra pairs 
-                available to share. Any type of binoculars will work - even inexpensive ones 
-                can enhance your experience.
+                While binoculars are helpful, they're not required. Any type of binoculars will work - even inexpensive ones 
+                can enhance your experience, however.
               </p>
             </div>
           </div>

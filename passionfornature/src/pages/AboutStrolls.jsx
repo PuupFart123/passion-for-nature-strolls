@@ -87,7 +87,7 @@ const AboutStrolls = () => {
                 </ul>
                 
                 <p>
-                  The walk will take us around the lake and finish at a beautiful lookout point where 
+                  The walk will take us around the bird loop and finish at a beautiful lookout point where 
                   we can take in the scenic views and reflect on what we've learned.
                 </p>
               </div>
