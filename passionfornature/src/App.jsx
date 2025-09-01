@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -8,6 +8,11 @@ import Footer from './components/Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
+
+  useEffect(() => {
+    window.__setPage = setCurrentPage;
+    return () => { delete window.__setPage; };
+  }, []);
 
   const renderPage = () => {
     switch (currentPage) {
