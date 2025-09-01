@@ -73,7 +73,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="hero-cta event-cta">
-                <button className="btn btn-primary">Join This Stroll</button>
+                <a href="https://www.signupgenius.com/go/10C0A4FA4AF2AA5F4CE9-57746171-passion#/" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'inline-block' }}>Join This Stroll</a>
                 <a href="/2025-09%20PFN%20PR%20Flyer%20for%20Enews.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block', textDecoration: 'none' }}>View Details</a>
               </div>
             </div>

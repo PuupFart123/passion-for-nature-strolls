@@ -57,7 +57,7 @@ const AboutStrolls = () => {
                 </div>
                 
                 <div className="event-cta">
-                  <button className="btn btn-primary">Join This Stroll</button>
+                  <a href="https://www.signupgenius.com/go/10C0A4FA4AF2AA5F4CE9-57746171-passion#/" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'inline-block' }}>Join This Stroll</a>
                 </div>
               </div>
             </div>

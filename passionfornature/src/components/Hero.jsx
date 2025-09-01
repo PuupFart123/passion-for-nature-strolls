@@ -33,9 +33,9 @@ const Hero = () => {
               learning from expert guides.
             </p>
             <div className="hero-cta fade-in-up">
-              <button className="btn btn-primary">
+              <a href="https://www.signupgenius.com/go/10C0A4FA4AF2AA5F4CE9-57746171-passion#/" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'inline-block' }}>
                 Join Our Next Stroll
-              </button>
+              </a>
               <button className="btn btn-secondary">
                 Learn More
               </button>
