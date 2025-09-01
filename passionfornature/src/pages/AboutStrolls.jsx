@@ -21,8 +21,8 @@ const AboutStrolls = () => {
               <h2>Upcoming Event</h2>
               <div className="card event-card">
                 <div className="event-header">
-                  <h3>Audubon Bird Loop at Marymoor Park</h3>
-                  <div className="event-date">Saturday, August 23, 2025</div>
+                  <h3>Beaver Lake Preserve</h3>
+                  <div className="event-date">Saturday, September 13th, 2025</div>
                 </div>
                 
                 <div className="event-details-list">
@@ -36,8 +36,8 @@ const AboutStrolls = () => {
                   <div className="detail-item">
                     <div className="detail-icon">📍</div>
                     <div>
-                      <strong>Location:</strong> The Audubon Bird Loop at Marymoor Park<br/>
-                      <span className="address">6046 West Lake Sammamish Pkwy NE, Redmond, WA 98052</span>
+                      <strong>Location:</strong> Beaver Lake Preserve (meet at Beaver Lake Lodge)<br/>
+                      <span className="address">25101 SE 24th Street, Sammamish, WA 98075</span>
                     </div>
                   </div>
                   
@@ -45,19 +45,13 @@ const AboutStrolls = () => {
                   <div className="detail-item" style={{ display: 'flex', alignItems: 'center' }}>
                     <div className="detail-icon">🚶</div>
                     <div>
-                      <strong>Walk Details:</strong> 1.3 miles (~2 hours)
+                      <strong>Walk Details:</strong> This stroll will take around 2 hours
                     </div>
                   </div>
                   <div className="detail-item" style={{ display: 'flex', alignItems: 'center' }}>
                     <div className="detail-icon">🗺️</div>
                     <div>
-                      <strong>Google Maps:</strong> Marymoor Parking Lot G
-                    </div>
-                  </div>
-                  <div className="detail-item">
-                    <div className="detail-icon">💵</div>
-                    <div>
-                      <strong>Note:</strong> Please bring a bill or a credit card to pay the parking fee (US$ 1.00)
+                      <strong>Google Maps:</strong> Beaver Lake Lodge
                     </div>
                   </div>
                 </div>

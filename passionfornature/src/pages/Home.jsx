@@ -77,7 +77,7 @@ const Home = () => {
               </div>
               <div className="hero-cta event-cta">
                 <button className="btn btn-primary">Join This Stroll</button>
-                <a href="/Marymoor%2023aug25.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block', textDecoration: 'none' }}>View Details</a>
+                <a href="/2025-09%20PFN%20PR%20Flyer%20for%20Enews.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block', textDecoration: 'none' }}>View Details</a>
               </div>
             </div>
             
