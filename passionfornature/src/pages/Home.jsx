@@ -60,19 +60,16 @@ const Home = () => {
               <h2>Next Nature Stroll</h2>
               <div className="event-details">
                 <div className="event-detail">
-                  <strong>Where:</strong> The Audubon Bird Loop at Marymoor Park
+                  <strong>Where:</strong> Beaver Lake Preserve
                 </div>
                 <div className="event-detail">
-                  <strong>Address:</strong> 6046 West Lake Sammamish Pkwy NE, Redmond, WA 98052
+                  <strong>Address:</strong> 25101 SE 24th Street, Sammamish, WA 98075
                 </div>
                 <div className="event-detail">
-                  <strong>Google Maps:</strong> Marymoor Parking Lot G
+                  <strong>Google Maps:</strong> Beaver Lake Lodge
                 </div>
                 <div className="event-detail">
-                  <strong>When:</strong> Saturday August 23, 2025. 9:00 AM
-                </div>
-                <div className="event-detail">
-                  <strong>Note:</strong> Please bring a bill or a credit card to pay the parking fee (US$ 1.00)
+                  <strong>When:</strong> Saturday, September 13th, 2025. 9:00 AM
                 </div>
               </div>
               <div className="hero-cta event-cta">
