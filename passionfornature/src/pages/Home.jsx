@@ -60,16 +60,16 @@ const Home = () => {
               <h2>Next Nature Stroll</h2>
               <div className="event-details">
                 <div className="event-detail">
-                  <strong>Where:</strong> Beaver Lake Preserve
+                  <strong>Where:</strong> Lake Sammamish State Park
                 </div>
                 <div className="event-detail">
-                  <strong>Address:</strong> 25101 SE 24th Street, Sammamish, WA 98075
+                  <strong>Address:</strong> 2182 NW Sammamish Road, Issaquah, WA 98027
                 </div>
                 <div className="event-detail">
-                  <strong>Google Maps:</strong> Beaver Lake Lodge
+                  <strong>Google Maps:</strong> Tibbetts Beach, Issaquah (Look for the green flag)
                 </div>
                 <div className="event-detail">
-                  <strong>When:</strong> Saturday, September 13th, 2025. 9:00 AM
+                  <strong>When:</strong> Saturday, October 11th, 2025. 9:00 AM
                 </div>
               </div>
               <div className="hero-cta event-cta">

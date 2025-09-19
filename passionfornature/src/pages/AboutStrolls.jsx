@@ -21,8 +21,8 @@ const AboutStrolls = () => {
               <h2>Upcoming Event</h2>
               <div className="card event-card">
                 <div className="event-header">
-                  <h3>Beaver Lake Preserve</h3>
-                  <div className="event-date">Saturday, September 13th, 2025</div>
+                  <h3>Lake Sammamish State Park</h3>
+                  <div className="event-date">Saturday, October 11th, 2025</div>
                 </div>
                 
                 <div className="event-details-list">
@@ -36,22 +36,15 @@ const AboutStrolls = () => {
                   <div className="detail-item">
                     <div className="detail-icon">📍</div>
                     <div>
-                      <strong>Location:</strong> Beaver Lake Preserve (meet at Beaver Lake Lodge)<br/>
-                      <span className="address">25101 SE 24th Street, Sammamish, WA 98075</span>
+                      <strong>Location:</strong> Lake Sammamish State Park (meet at Tibbetts Beach parking lot)<br/>
+                      <span className="address">2182 NW Sammamish Road, Issaquah, WA 98027</span>
                     </div>
                   </div>
                   
-                  {/* You can add or update walk details and group size here if you have info */}
                   <div className="detail-item" style={{ display: 'flex', alignItems: 'center' }}>
                     <div className="detail-icon">🚶</div>
                     <div>
-                      <strong>Walk Details:</strong> This stroll will take around 2 hours
-                    </div>
-                  </div>
-                  <div className="detail-item" style={{ display: 'flex', alignItems: 'center' }}>
-                    <div className="detail-icon">🗺️</div>
-                    <div>
-                      <strong>Google Maps:</strong> Beaver Lake Lodge
+                      <strong>Walk Details:</strong> 1.3 miles over 2 hours
                     </div>
                   </div>
                 </div>
