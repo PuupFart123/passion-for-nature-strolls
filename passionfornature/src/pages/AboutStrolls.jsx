@@ -26,7 +26,7 @@ const AboutStrolls = () => {
                 </div>
                 
                 <div className="event-details-list">
-                  <div className="detail-item">
+                  <div className="detail-item" style={{ display: 'flex', alignItems: 'center' }}>
                     <div className="detail-icon">🕘</div>
                     <div>
                       <strong>Time:</strong> 9:00 AM
