@@ -36,9 +36,9 @@ const Hero = () => {
               <a href="https://www.signupgenius.com/go/10C0A4FA4AF2AA5F4CE9-57746171-passion#/" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'inline-block' }}>
                 Join Our Next Stroll
               </a>
-              <button className="btn btn-secondary" onClick={() => window.__setPage && window.__setPage('about-strolls')}>
+              <a href="/2025-10%20PFN%20PR%20Flyer%20for%20Enews.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ textDecoration: 'none', display: 'inline-block' }}>
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
           
