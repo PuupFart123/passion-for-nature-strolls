@@ -22,22 +22,29 @@ const AboutStrolls = () => {
               <div className="card event-card">
                 <div className="event-header">
                   <h3>Lake Sammamish State Park</h3>
-                  <div className="event-date">Saturday, October 11th, 2025</div>
+                  <div className="event-date">Saturday, July 11th, 2026</div>
                 </div>
                 
                 <div className="event-details-list">
                   <div className="detail-item" style={{ display: 'flex', alignItems: 'center' }}>
                     <div className="detail-icon">🕘</div>
                     <div>
-                      <strong>Time:</strong> 9:00 AM
+                      <strong>Time:</strong> 9:00 AM – 11:00 AM
                     </div>
                   </div>
                   
                   <div className="detail-item">
                     <div className="detail-icon">📍</div>
                     <div>
-                      <strong>Location:</strong> Lake Sammamish State Park (meet at Tibbetts Beach parking lot)<br/>
+                      <strong>Location:</strong> Lake Sammamish State Park<br/>
                       <span className="address">2182 NW Sammamish Road, Issaquah, WA 98027</span>
+                    </div>
+                  </div>
+                  
+                  <div className="detail-item" style={{ display: 'flex', alignItems: 'center' }}>
+                    <div className="detail-icon">🅿️</div>
+                    <div>
+                      <strong>Parking:</strong> Participants need a Discover Pass, or pay the parking fee
                     </div>
                   </div>
                   
@@ -50,7 +57,7 @@ const AboutStrolls = () => {
                 </div>
                 
                 <div className="event-cta">
-                        <a href="https://www.signupgenius.com/go/10C0A4FA4AF2AA5F4CE9-58841182-passion" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'inline-block' }}>Join This Stroll</a>
+                        <a href="https://www.signupgenius.com/go/10C0A4FA4AF2AA5F4CE9-64575969-july" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'inline-block' }}>Join This Stroll</a>
                 </div>
               </div>
             </div>

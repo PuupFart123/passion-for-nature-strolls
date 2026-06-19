@@ -66,15 +66,18 @@ const Home = () => {
                   <strong>Address:</strong> 2182 NW Sammamish Road, Issaquah, WA 98027
                 </div>
                 <div className="event-detail">
-                  <strong>Google Maps:</strong> Tibbetts Beach, Issaquah (Look for the green flag)
+                  <strong>Google Maps:</strong> Tibbetts Beach
                 </div>
                 <div className="event-detail">
-                  <strong>When:</strong> Saturday, October 11th, 2025. 9:00 AM
+                  <strong>When:</strong> Saturday, July 11th, 2026. 9:00 AM – 11:00 AM
+                </div>
+                <div className="event-detail">
+                  <strong>Note:</strong> Participants need a Discover Pass, or pay the parking fee
                 </div>
               </div>
               <div className="hero-cta event-cta">
-                <a href="https://www.signupgenius.com/go/10C0A4FA4AF2AA5F4CE9-58841182-passion" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'inline-block' }}>Join This Stroll</a>
-                <a href="/2025-10%20PFN%20PR%20Flyer.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block', textDecoration: 'none' }}>View Details</a>
+                <a href="https://www.signupgenius.com/go/10C0A4FA4AF2AA5F4CE9-64575969-july" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'inline-block' }}>Join This Stroll</a>
+                <a href="/Sammamish%20Walks%20(2).pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block', textDecoration: 'none' }}>View Details</a>
               </div>
             </div>
             
